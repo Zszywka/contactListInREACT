@@ -1,16 +1,15 @@
 body {
 		width: calc(100vw - 20px);
 		box-sizing: border-box;
-		padding: 20px;
-		font-size: .8rem;
-    /* background-color: black; */
+		padding: 10px;
+    font-size: 10px;
 }
 
 .app {
 	border: 2px solid gray;
 	margin: 0 auto;
 	border-radius: 10px;
-  background-color: white;
+  background-color: #fff;
 }
 
 /* -----------------------------------FORM----------------------------------- */
@@ -18,7 +17,7 @@ form,
 .contactItem {
 	margin: 15px 15px;
 	border: 1px solid  #ddd;
-	width: calc(100% - 80px);
+	width: calc(100% - 60px);
 	height: auto;
 	border-radius: 4px;
 	padding: 20px;
@@ -31,8 +30,8 @@ form,
   flex-direction: row;
 }
 input {
-	margin: .9rem 0;
-	font-size: 0.8rem;
+	margin: 1rem 0;
+	font-size: 0.7rem;
 	font-weight: bold;
 }
 
@@ -49,21 +48,22 @@ img {
 	min-width: 10%;
 	height: auto;
 	display: block;
-	margin: 0 10px;
-  border: 3px solid #000;
+	margin: 0;
+  border: 2px solid #000;
 }
 
 p.contactLabel,
 a.contactEmail {
 	height: 40%;
-  min-width: 15%;
-  width: 5%;
-  font-size: 1ex;
-  margin: 1%;
-  padding: 2%;
+  min-width: 30%;
+  width: 2%;
+  font-size: 2ex;
   padding-top: 2%;
   text-align:center;
   text-decoration: none;
+}
+a.contactEmail {
+  margin-top: 15px;
 }
 
 /*---------------------------MEDIA QUERY--------------------------------------*/

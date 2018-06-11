@@ -6,8 +6,7 @@ var Contacts = React.createClass({
   },
   render: function(){
     var contacts = this.props.items.map(function(contact) {
-      return React.createElement(Contact, {item: contact, key: contact.id}); //? nie ma nigdzie zdeklarowaneej klasy Contact jest Contacts i skad funkcja wie zeby ciagnac id z app.js?
-    });
+      return React.createElement(Contact, {item: contact, key: contact.id});
 
     return (
       React.createElement('ul', {className: 'contactList'}, contacts)

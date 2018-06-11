@@ -21,6 +21,11 @@ var ContactForm = React.createClass({
           placeholder: 'Write the Email',
           value: this.props.contact.email
         }),
+        React.createElement('input', {
+          type: 'file',
+          placeholder: 'Add photo',
+          value: this.props.contact.photo
+        }),
         React.createElement('button', {type: 'submit'}, 'Add new contact')
       )
     )

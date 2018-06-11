@@ -5,18 +5,21 @@ var contacts = [
     firstName: 'Aleksandra',
     lastName: 'Nowak',
     email: 'ala.nowak@ex.com',
+    photo: './photos/woman.jpeg',
   },
   {
     id: 2,
     firstName: 'Adam',
     lastName: 'Piatek',
     email: 'adam.piatek@ex.com',
+    photo: './photos/man1.jpeg',
   },
   {
     id: 3,
     firstName: 'Tomasz',
     lastName: 'Koziol',
     email: 'tomasz.koziol@ex.com',
+    photo: './photos/man2.jpeg',
   }
 ];
 
@@ -24,7 +27,8 @@ var contacts = [
 var contactForm = {
   firstName: '',
   lastName: '',
-  email: ''
+  email: '',
+  photo: '',
 };
 
 // // object all App
